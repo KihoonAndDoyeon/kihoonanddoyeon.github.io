@@ -1894,9 +1894,9 @@ h3 {
 .location_area .location_info {
   display: inline-block;
   position: absolute;
-  left: 50%;
+  left: 0%;
   bottom: 0;
-  z-index: 9;
+  z-index: auto;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -1967,17 +1967,22 @@ h3 {
 }
 
 /* line 59, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
-.location_area .location_info .location_inner .address_info .single_address h4 {
+.location_area .location_info .location_inner .address_info .location_top .single_address h4 {
   color: #C78665;
   font-size: 16px;
   font-family: "Muli", sans-serif, "onMin";
   font-weight: 600;
 }
-
+.location_area .location_info .location_inner .address_info .location_top .single_address h3 {
+  color: #C78665;
+  font-size: 20px;
+  font-family: "Muli", sans-serif, "onMin";
+  font-weight: 600;
+}
 /* line 65, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
-.location_area .location_info .location_inner .address_info .single_address p {
-  color: #727272;
-  font-size: 15px;
+.location_area .location_info .location_inner .address_info .location_top .single_address p {
+  color: #C78665;
+  font-size: 16px;
   font-family: "Muli", sans-serif, "onMin";
   font-weight: 400;
   line-height: 26px;
@@ -2339,7 +2344,7 @@ sup,
 sub,
 u,
 del {
-  color: #ff5e13;
+  color: #000000;
 }
 
 /* line 93, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_elements.scss */

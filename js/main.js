@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
         autoplayTimeout: 5000,
         dots : false,
         nav: true,
+        navText:['<', '>'],
         responsive : {
             0 : {
                 items:1
