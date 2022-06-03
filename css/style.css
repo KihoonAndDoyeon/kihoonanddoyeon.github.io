@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,600i,700,700i,800,800i,900|Petit+Formal+Script&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,600i,700,700i,800,800i,900|Petit+Formal+Script&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Swanky+and+Moo+Moo&display=swap');
 /* line 1, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_extend.scss */
 .flex-center-start {
   display: -webkit-box;
@@ -15,9 +16,17 @@
 }
 
 @font-face {
+  font-family: 'Cafe24Oneprettynight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+0041-005A, U+0061-007A, U+0030-0039, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+
+@font-face {
   font-family: 'onMin';
-  src: url(../fonts/onMin.ttf);
-  url(../fonts/onMin.ttf) format('truetype');
+  src: url(../fonts/onMoo.ttf);
+  url(../fonts/onMoo.ttf) format('truetype');
   unicode-range: U+AC00-D7A3;
 }
 /* Normal desktop :1200px. */
@@ -28,7 +37,7 @@
 /* 1. Theme default css */
 /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 body {
-  font-family: "Indie Flower", cursive, "onMin";
+  font-family: "Cafe24Oneprettynight", cursive, "onMin";
   font-weight: normal;
   font-style: normal;
   overflow-x: hidden;
@@ -82,7 +91,7 @@ button {
 
 /* line 44, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Indie Flower", cursive, "onMin";
+  font-family: "Cafe24Oneprettynight", cursive, "onMin";
   color: #1F1F1F;
 }
 
@@ -114,7 +123,7 @@ p {
   line-height: 28px;
   color: #727272;
   margin-bottom: 13px;
-  font-family: "Indie Flower", cursive;
+  font-family: "Cafe24Oneprettynight", cursive;
 }
 
 /* line 73, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
@@ -462,7 +471,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 15px 44px;
-  font-family: "Indie Flower", cursive, "onMin";
+  font-family: "Cafe24Oneprettynight", cursive, "onMin";
   font-size: 16px;
   font-weight: 600;
   border: 0;
@@ -504,7 +513,7 @@ h3 {
 .section_title span {
   font-size: 18px;
   font-weight: 400;
-  font-family: "Indie Flower", sans-serif, "onMin";
+  font-family: "Cafe24Oneprettynight", sans-serif, "onMin";
   color: #C78665;
   display: block;
   margin-top: 20px;
@@ -514,7 +523,7 @@ h3 {
 /* line 18, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_section_title.scss */
 .section_title h3 {
   font-size: 36px;
-  font-family: "Indie Flower", sans-serif, "onMin";
+  font-family: "Cafe24Oneprettynight", sans-serif, "onMin";
   font-weight: 400;
   text-transform: uppercase;
   margin-top: 20px;
@@ -1143,7 +1152,7 @@ h3 {
 .slider_area_inner .slider_text h4 {
   font-size: 16px;
   font-weight: 600;
-  font-family: "Muli", sans-serif;
+  font-family: "Cafe24Oneprettynight", sans-serif;
   color: #fff;
   margin-top: 5px;
 }
@@ -1151,7 +1160,7 @@ h3 {
 /* line 113, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_area_inner .slider_text h3 {
   font-size: 36px;
-  font-family: "Indie Flower", cursive;
+  font-family: "Cafe24Oneprettynight", cursive;
   font-weight: 400;
   color: #fff;
   line-height: 46px;
@@ -1186,7 +1195,7 @@ h3 {
 /* line 138, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_slider.scss */
 .slider_area_inner .slider_text span {
   font-size: 18px;
-  font-family: "Indie Flower", cursive;
+  font-family: "Cafe24Oneprettynight", cursive;
   font-weight: 400;
   color: #fff;
 }
@@ -1328,7 +1337,7 @@ h3 {
 /* line 39, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_wedding_counter.scss */
 .weeding_countdown_area .countdown_area .countdown_wrap .single_countdown h3 {
   font-size: 60px;
-  font-family: "Indie Flower", cursive;
+  font-family: "Cafe24Oneprettynight", cursive;
   font-weight: 400;
   color: #C78665;
   margin-bottom: 17px;
@@ -1387,7 +1396,7 @@ h3 {
 .program_details_area .single_program .program_inner span {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Indie Flower", cursive, "onMin";
+  font-family: "Cafe24Oneprettynight", cursive, "onMin";
 }
 
 /* line 27, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_program.scss */
@@ -2041,7 +2050,7 @@ h3 {
   color: #919191;
   margin-bottom: 0;
   font-weight: 400;
-  font-family: "Muli", sans-serif, "onMin";
+  font-family: "Cafe24Oneprettynight", sans-serif, "onMin";
 }
 
 @media (max-width: 767px) {

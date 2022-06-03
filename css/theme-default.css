@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,600i,700,700i,800,800i,900|Petit+Formal+Script&display=swap");
 /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 body {
-  font-family: "Indie Flower", cursive;
+  font-family: "Cafe24Oneprettynight", cursive;
   font-weight: normal;
   font-style: normal;
   overflow-x: hidden;
@@ -56,7 +56,7 @@ button {
 
 /* line 44, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Indie Flower", cursive;
+  font-family: "Cafe24Oneprettynight", cursive;
   color: #1F1F1F;
 }
 
@@ -88,7 +88,7 @@ p {
   line-height: 28px;
   color: #727272;
   margin-bottom: 13px;
-  font-family: "Indie Flower", cursive;
+  font-family: "Cafe24Oneprettynight", cursive;
 }
 
 /* line 73, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/theme-default.scss */
